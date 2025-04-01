@@ -1,3 +1,64 @@
+# Climate Change ZK Certificate (i.e. GHG certificate) /or IP-NFT /w ZK certificate-attached metadata in Noir
+
+## Overview
+
+- Climate Change ZK Certificate (i.e. GHG certificate)
+  
+Or,
+
+- IP-NFT /w ZK certificate-attached metadata
+
+<br>
+
+## Installation
+
+<br>
+
+## ZK circuit - Test
+
+```bash
+cd circuits
+sh circuit_test.sh
+```
+
+<br>
+
+## SC - Script
+- Run the `Verify.s.sol` on the Local Network
+```bash
+sh ./script/runningScript_Verify.sh
+```
+
+- Run the `Verify.s.sol` on the EDU Chain Testnet
+```bash
+sh ./script/edu-chain-testnet/runningScript_Verify_onEDUChainTestnet.sh
+```
+
+<br>
+
+## Utils
+
+### Hashing with Poseidon2 Hash (Sync)
+- Run the `poseidon2HashGenerator.ts`
+```bash
+sh script/utils/poseidon2-hash-generator/usages/sync/runningScript_poseidon2HashGenerator.sh
+```
+(Ref: https://nodejs.org/en/learn/typescript/run#running-typescript-with-a-runner )
+
+<br>
+
+### Hashing with Poseidon2 Hash (Async)
+- Run the `poseidon2HashGeneratorWithAsync.ts`
+```bash
+sh script/utils/poseidon2-hash-generator/usages/async/runningScript_poseidon2HashGeneratorWithAsync.sh
+```
+(Ref: https://nodejs.org/en/learn/typescript/run#running-typescript-with-a-runner )
+
+
+<br>
+
+<hr>
+
 # Noir with Foundry
 
 This example uses Foundry to deploy and test a verifier.

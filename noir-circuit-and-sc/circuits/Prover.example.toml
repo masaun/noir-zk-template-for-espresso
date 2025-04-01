@@ -1,0 +1,23 @@
+# return = ""
+root = ""                  # @dev - Merkle Root
+hash_path = ["", ""]
+index = ""
+secret = ""                # @dev - A hidden metadata hash (private)
+expected_nullifier = ""    # @dev - Should be a Poseidon2 Hash
+
+[nft_data]
+nft_owner = ""
+nft_token_id = ""
+metadata_cid_hash = ""
+
+# root: pub Field, // @dev - Merkle Root
+# hash_path: [Field; 2],
+# index: Field,
+# secret: Field,   // @dev - A hidden metadata hash (private)
+# nft_data: NftData
+
+# pub struct NftData {
+#     nft_owner: Field,
+#     nft_token_id: Field,
+#     metadata_cid_hash: Field  // IPFS CID for the metadata of NFT, which is generated when uploading to IPFS.
+# }
