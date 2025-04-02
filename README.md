@@ -14,3 +14,4 @@ This ZK template is consist of two components:
 
 - [espresso](https://github.com/masaun/noir-zk-template-for-espresso/tree/main/espresso)
   - Espresson-based project templates to be integrated with the ZK template above. (NOTE: This integration with the ZK template is still in progress)
+

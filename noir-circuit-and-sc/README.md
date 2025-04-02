@@ -87,3 +87,17 @@ sh script/utils/poseidon2-hash-generator/usages/async/runningScript_poseidon2Has
 
 ## Smart contract - Test 
 - In progress
+
+<br>
+
+## References
+
+- Noir:
+  - Noir's doc: https://noir-lang.org/docs
+  - NoirJS: https://noir-lang.org/docs/reference/NoirJS/noir_js
+  - foundry-noir-helper: https://github.com/0xnonso/foundry-noir-helper
+
+<br>
+
+- Poseidon Hash:
+  - `zkpassport/poseidon2`: https://github.com/zkpassport/poseidon2
