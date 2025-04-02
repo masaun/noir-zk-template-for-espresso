@@ -13,12 +13,12 @@ contract VerifyScript is Script {
     function setUp() public {}
 
     function run() public returns (bool) {
-        uint256 deployerPrivateKey = vm.envUint("EDU_CHAIN_TESTNET_PRIVATE_KEY");
+        uint256 deployerPrivateKey = vm.envUint("ESPRESSO_DECAF_TESTNET_PRIVATE_KEY");
         vm.startBroadcast(deployerPrivateKey);
 
         /// @dev - Read the each deployed address from the configuration file.
-        address ULTRAVERIFER = vm.envAddress("ULTRAVERIFER_ON_EDU_CHAIN_TESTNET");
-        address NFT_OWNERSHIP_VERIFIER = vm.envAddress("NFT_OWNERSHIP_VERIFIER_ON_EDU_CHAIN_TESTNET");
+        address ULTRAVERIFER = vm.envAddress("ULTRAVERIFER_ON_ESPRESSO_DECAF_TESTNET");
+        address NFT_OWNERSHIP_VERIFIER = vm.envAddress("NFT_OWNERSHIP_VERIFIER_ON_ESPRESSO_DECAF_TESTNET");
 
         /// @dev - Create the SC instances /w deployed SC addresses
         verifier = UltraVerifier(ULTRAVERIFER);

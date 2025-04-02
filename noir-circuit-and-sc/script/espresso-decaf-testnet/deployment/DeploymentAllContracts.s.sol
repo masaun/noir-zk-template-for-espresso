@@ -21,8 +21,8 @@ contract DeploymentAllContracts is Script {
     function setUp() public {}
 
     function run() public {
-        vm.createSelectFork("educhain-testnet");
-        uint256 deployerPrivateKey = vm.envUint("EDU_CHAIN_TESTNET_PRIVATE_KEY");
+        vm.createSelectFork("espresso-decaf-testnet");
+        uint256 deployerPrivateKey = vm.envUint("ESPRESSO_DECAF_TESTNET_PRIVATE_KEY");
         //uint256 deployerPrivateKey = vm.envUint("LOCALHOST_PRIVATE_KEY");
         vm.startBroadcast(deployerPrivateKey);
         //vm.startBroadcast();
