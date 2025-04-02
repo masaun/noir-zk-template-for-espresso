@@ -5,12 +5,31 @@
 This template is consist of two components:
 - ZK circuit in Noir.
 - Smart contract in Solidity and its script and test in Foundry.
-  - In the `./script/util` directory, 
-
-
+  - In the `/script/util` directory, there are 2 ZK modules (Please see the details in the `"ZK modules under the `/script/util` directory"` paragraph in this README):
+    - `poseidon2-hash-generator`
+    - `ProofConverter.sol`
 
 This template is designed for integrated with the [Espresson-based project templates](https://github.com/masaun/noir-zk-template-for-espresso/tree/main/espresso). (NOTE: This integration with the ZK template is still in progress)
-  
+
+
+<br>
+
+## ZK modules for Noir under the `/script/util` directory
+
+In the `/script/util` directory, there are 2 modules:
+- `poseidon2-hash-generator`
+- `ProofConverter.sol`
+    
+### ZK module - `poseidon2-hash-generator`
+The `poseidon2-hash-generator` is consist of the 
+- ZK circuit runner with the `NoirJS` library (`/circuit-runner/circuitRunner.ts`) 
+- Poseidon Hash generator with the [zkpassport/poseidon2](https://github.com/zkpassport/poseidon2) library(`poseidon2HashGeneratorWithAsync.ts`)
+
+
+### ZK module - `ProofConverter.sol`
+- This is the smart contract that hash a function to slice extra part from a proof file - because the proof file includes the public inputs at the beginning.
+
+
 
 <br>
 
