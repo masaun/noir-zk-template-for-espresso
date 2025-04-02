@@ -86,7 +86,10 @@ sh script/utils/poseidon2-hash-generator/usages/async/runningScript_poseidon2Has
 <br>
 
 ## Smart contract - Test 
-- In progress
+- Run the `NFTOwnershipVerifier.t.sol`
+```bash
+sh ./test/runningTest_NFTOwnershipVerifier.sh
+```
 
 <br>
 
