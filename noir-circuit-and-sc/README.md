@@ -9,7 +9,7 @@ This template is consist of two components:
     - `poseidon2-hash-generator`
     - `ProofConverter.sol`
 
-This template is designed for integrated with the [Espresson-based project templates](https://github.com/masaun/noir-zk-template-for-espresso/tree/main/espresso), which is particuraly working on [Espresso Decaf Testnet](https://docs.espressosys.com/network/releases/testnets/decaf-testnet). (NOTE: This integration with the ZK template is still in progress)
+This template is designed for integrated with the [Espresson-based project templates](https://github.com/masaun/noir-zk-template-for-espresso/tree/main/espresso), which is particularly working on [Espresso Decaf Testnet](https://docs.espressosys.com/network/releases/testnets/decaf-testnet). (NOTE: This integration with the ZK template is still in progress)
 
 
 <br>
