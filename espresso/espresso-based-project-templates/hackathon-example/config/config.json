@@ -1,0 +1,6 @@
+{
+    "caff_node_url": "http://YOUR_HOST:8550",
+    "polling_interval": 1,
+    "value": 1,
+    "from": "0x0000000000000000000000000000000000000000"
+}
