@@ -43,7 +43,7 @@ sh build.sh
 <br>
 
 ## Smart contract - Script
-- Run the `Verify.s.sol` on the Local Network
+- Run the `Verify.s.sol` on the Local Network (NOTE: This could work)
 ```bash
 sh ./script/runningScript_Verify.sh
 ```
